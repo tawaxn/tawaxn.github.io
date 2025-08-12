@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentLoan MFU - Project Details</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">Tawan</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#projects" class="nav-link">Project</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Project Header -->
+    <section class="project-header">
+        <div class="finisher-header project-page-finisher" data-finisher-preset="studentloan"></div>
+        <div class="container">
+            <div class="back-button">
+                <a href="index.html#projects" class="btn btn-secondary">
+                    <i class="fas fa-arrow-left"></i> Back to Projects
+                </a>
+            </div>
+            <div class="project-hero">
+                <div class="project-hero-image">
+                </div>
+                <div class="project-hero-content">
+                    <h1>StudentLoan MFU</h1>
+                    <p class="project-subtitle">Student Loan Fund System</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Details -->
+    <section class="project-details">
+        <div class="container">
+            <div class="project-content-grid">
+                <div class="project-main">
+                    <div class="project-section">
+                        <h2>Project Overview</h2>
+                        <p>
+                            StudentLoan is a website designed to simplify the student loan process. The system covers
+                            everything from loan applications and disbursements to user management. This project was
+                            developed to demonstrate skills in database management and backend logic implementation.
+                        </p>
+                        <p>
+                            <b>Responsibilities:</b> Responsibilities: In this project, I was responsible for adding
+                            various functions, managing the system and API integration between the frontend and backend.
+                        </p>
+                    </div>
+
+                    <div class="project-section">
+                        <h2>Features</h2>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Loan application registration</li>
+                            <li><i class="fas fa-check"></i> View loan application status</li>
+                            <li><i class="fas fa-check"></i> Loan provider management to simplify the lending process
+                            </li>
+                            <li><i class="fas fa-check"></i> Admin management system</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-section">
+                        <h2>Technology used</h2>
+                        <div class="tech-details">
+                            <div class="tech-category">
+                                <p>HTML5, CSS3, JavaScript, Vue.js, Node.js, MySQL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="project-sidebar">
+                        <div class="project-gallery">
+                            <h3>Project Gallery</h3>
+                            <div class="gallery-grid">
+                                <div class="gallery-item">
+                                    <img src="img/2.1.png" alt="StudentLoan MFU Screenshot" class="gallery-image">
+                                </div>
+                                <div class="gallery-item">
+                                    <img src="img/2.2.png" alt="StudentLoan MFU Screenshot" class="gallery-image">
+                                </div>
+                                <div class="gallery-item">
+                                    <img src="img/2.3.png" alt="StudentLoan MFU Screenshot" class="gallery-image">
+                                </div>
+                                <div class="gallery-item">
+                                    <img src="img/2.4.png" alt="StudentLoan MFU Screenshot" class="gallery-image">
+                                </div>
+                                <div class="gallery-item">
+                                    <img src="img/2.5.png" alt="StudentLoan MFU Screenshot" class="gallery-image">
+                                </div>
+                                <div class="gallery-item">
+                                    <img src="img/2.6.png" alt="StudentLoan MFU Screenshot" class="gallery-image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Lightbox Overlay -->
+    <div class="lightbox-overlay" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close">
+            <i class="fas fa-times"></i>
+        </button>
+        <button class="lightbox-nav-btn prev" id="lightboxPrev" aria-label="Previous">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <img class="lightbox-image" id="lightboxImage" src="" alt="Preview">
+        <button class="lightbox-nav-btn next" id="lightboxNext" aria-label="Next">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Created By Peerawit Intakaew | © 2025 All Right Reseverd</p>
+        </div>
+    </footer>
+
+    <script src="finisher-header.es5.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
